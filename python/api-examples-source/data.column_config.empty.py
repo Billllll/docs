@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(layout="wide")
+
 df = pd.DataFrame(columns=["name", "age", "color"])
 colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 config = {
